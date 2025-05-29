@@ -24,7 +24,7 @@ const MealItemForm = (props) => {
         {/* <label htmlFor={'amount_' + props.id}>Quntity</label> */}
         <Input
           ref={amountInputRef}
-          label="Amount"
+          label="Item"
           input={{
             id: 'amount_' + props.id,
             type: 'number',
